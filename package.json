@@ -1,0 +1,11 @@
+{
+  "name": "ok",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000Y\u0000P\u0000E\u0000S\u0000C\u0000R\u0000I\u0000P\u0000T\u0000-\u0000T\u0000H\u0000E\u0000-\u0000N\u0000E\u0000W\u0000-\u0000B\u0000E\u0000G\u0000I\u0000N\u0000N\u0000I\u0000N\u0000G\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
