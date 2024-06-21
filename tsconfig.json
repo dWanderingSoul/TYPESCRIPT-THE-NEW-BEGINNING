@@ -3,6 +3,7 @@
     "target": "es5",   // Set the target ECMAScript version
     "strict": true,      // Enable strict mode
     "module": "es2015", //Use es2015 
+    "noImplicitAny": true, // Disallow implicit 'any' type
     "outDir": "./build",  // Output compiled files to build folder
     "esModuleInterop": true, // Allow for modern ES module imports
     "allowJs": true,       // Allow compiling JavaScript files (optional)
@@ -11,10 +12,11 @@
     "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "sourceMap": true, // Generate source maps for debugging
 
   },
-  "include": ["./TYPESCRIPT, THE NEW BEGINNING/build"], // Specify source directory for compilation
-  "exclude": [""] // Exclude 
+  "include": ["./Book.ts","./Library.js","./User.ts"], // Specify source directory for compilation
+  "exclude": ["build"] // Exclude build
 }
 
 
